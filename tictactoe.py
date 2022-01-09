@@ -75,7 +75,7 @@ class Game(object):
         self.b = Board()
         self.p1 = Player(p1, "X")
         self.p2 = Player(p2, "O")
-        self.turn = 1
+        self.turn = 1           # initialize the turn to player 1
     
     def play(self):
         self.b.display()
